@@ -1,7 +1,7 @@
 {
   "plugins": [
-    "prism",
-    "-highlight",
+    "prism","-highlight",
+    "-lunr", "-search", "search-plus",
     "simple-page-toc",
     "navigator"
   ],
@@ -16,9 +16,9 @@
     "simple-page-toc": {
       "maxDepth": 3,
       "skipFirstH1": true
-    },
-    "styles": {
-      "website": "website.css"
     }
+  },
+  "styles": {
+    "website": "website.css"
   }
 }
