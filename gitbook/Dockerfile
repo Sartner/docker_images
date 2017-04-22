@@ -6,9 +6,7 @@ ADD ./resources/* /srv/gitbook/
 
 RUN npm install --global gitbook-cli &&\
 	gitbook fetch 3.2.2 &&\
-	npm install gitbook-plugin-prism &&\
-	npm install gitbook-plugin-navigator &&\
-	npm install gitbook-plugin-simple-page-toc &&\
+	gitbook install && \
 	npm cache clear &&\
 	rm -rf /tmp/*
 
