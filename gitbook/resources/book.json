@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "prism",
+    "-highlight",
+    "simple-page-toc",
+    "navigator"
+  ],
+  "pluginsConfig": {
+    "pluginsConfig": {
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ]
+      }
+    },
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    },
+    "styles": {
+      "website": "website.css"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+section {
+    width: 100%;
+}
+
+h1 {
+    color: #2674BA;
+}
+
+h2 {
+    color: #0099CC;
+}
+
+h3 {
+    color: #F77A0B;
+}
+
+h4 {
+    color: #662D91;
+}
+
+h5 {
+    color: #444444;
+}
+
+h6 {
+
+}
+
+th {
+    background-color: #2674BA;
+    color: white;
+}
+
+.page-inner {
+    max-width: 1200px !important;
+}
+
+blockquote {
+    margin: 0 0 15px !important;
+    padding: 15px 20px !important;
+    border-left: 5px solid #ddd !important;
+    font-size: 14px !important;
+    background-color: rgba(102, 128, 153, .05) !important;
+    color: #333 !important;
+}
+
+.book .book-body .page-wrapper {
+    background-color: #FCFCFC !important;
+}
+
+.book .book-body .page-wrapper .page-inner section {
+    background-color: #FCFCFC !important;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .highlight {
+    background: #fff
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .glossary-term {
+    cursor: help;
+    text-decoration: underline
+}
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
+    color: #704214
+}
