@@ -2,7 +2,7 @@ FROM node:7-alpine
 
 MAINTAINER Sartner <sartner@foxmail.com>
 
-ADD ./resources/* /srv/gitbook
+ADD ./resources/* /srv/gitbook/
 
 RUN npm install --global gitbook-cli &&\
 	gitbook fetch 3.2.2 &&\
