@@ -4,13 +4,13 @@ MAINTAINER Sartner <sartner@foxmail.com>
 
 ADD ./resources/* /srv/gitbook/
 
+WORKDIR /srv/gitbook
+
 RUN npm install --global gitbook-cli &&\
 	gitbook fetch 3.2.2 &&\
 	gitbook install && \
 	npm cache clear &&\
 	rm -rf /tmp/*
-
-WORKDIR /srv/gitbook
 
 VOLUME /srv/gitbook /srv/html
 
